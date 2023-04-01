@@ -49,7 +49,6 @@ const Contact = () => {
 
                     <Text style={{ fontSize: 12, fontWeight: '400', letterSpacing: 1, opacity: 0.5, lineHeight: 20, maxWidth: '85%', maxHeight: 44, marginBottom: 18 }}>
                         Khi Bạn Gặp Bất Cứ Sự Cố gì hãy liên hệ với Chúng tôi Qua các phương thức bên dưới
-
                     </Text>
                     <View style={{
                         padding: 10,
