@@ -186,7 +186,7 @@ const Profile = () => {
                     <View style={styles.menuItem}>
                         <Icon name="book" color="#000" size={25}/>
                         <Text style={styles.menuItemText}>
-                            Lịch sử mua hàng
+                            Đơn Hàng
                         </Text>
                     </View>
                    

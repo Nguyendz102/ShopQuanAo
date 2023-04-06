@@ -51,6 +51,10 @@ const Main = () => {
         loadCategories()
         loadAllProducts()
     }
+    danhSachSabPham = (id,name)=>{
+        console.log(name)
+        navigation.navigate('Danh Sách sản phẩm',{id: id,name: name});
+    }
 
 
     listDanhSach = (id) => {
