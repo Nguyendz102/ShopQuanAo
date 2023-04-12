@@ -66,12 +66,10 @@ const DanhSachSanPham = (props) => {
                         // addCart = {addCart}
                         />
                             }</View>
-                       
                     )
                 })
             }
-            </View>
-            
+            </View> 
         </ScrollView>
         </View>
        

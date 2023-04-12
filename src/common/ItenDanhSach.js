@@ -1,7 +1,6 @@
 import { View, Text,Alert, Image, TouchableOpacity } from "react-native"
 import React, { useEffect } from "react";
 import axios from "axios";
-
 import {GETCARTUSER,POSTCARTUSER} from "../../api"
 import {useDispatch, useSelector} from 'react-redux'
 import { useNavigation,useIsFocused } from "@react-navigation/native";
@@ -58,9 +57,7 @@ const ItemDanhSach = (props) => {
                        
                     }},
                   ]);
-            
-            }
-           
+            } 
         }
     }
     handleDetailProduct = (id)=>{
